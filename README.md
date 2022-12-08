@@ -15,4 +15,12 @@ Questions to be answered :
  - What were the most/ least popular Pizza names among customers ?
  - Which Categories were most Profitable ?
  
-### Process
+### Cleaning Process
+The Data was opened in the Power Query after loading it into Power BI .
+- I modelled the data so as to ensure Dimensions and fact Table were put correctly .
+- I Changed columns with incorrect datatypes to the appropriate ones .
+- I made sure my region corresponded with my data to remove errors associated with the price 
+column.
+- I created new columns like, Day of the week, time of the day , Months etc by extracting the data 
+from the date column .
+- I also created a new measure " Revenue" that is the multiplication of the quantity by the price .
